@@ -8,3 +8,7 @@ improve1/checkpoints/
 wget-log
 improve1/chess_model.pth
 improve1/chess_model_interrupted.pth
+logs/
+improve1/logs/
+working0/logs/
+model_quantized.pt
