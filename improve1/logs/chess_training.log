@@ -1,0 +1,2412 @@
+2024-11-21 01:52:52,635 - INFO - Starting training with config: {'epochs': 200, 'batch_size': 1024, 'num_workers': 16, 'cache_size': 1000, 'mode': 'train'}
+2024-11-21 01:52:52,655 - INFO - Using GPU: NVIDIA TITAN RTX
+2024-11-21 01:52:52,655 - INFO - Initializing training components...
+2024-11-21 01:52:53,570 - INFO - Initializing dataset from ../data.pgn with cache size 1000
+2024-11-21 01:52:53,773 - INFO - Starting training...
+2024-11-21 01:53:47,447 - INFO - Process interrupted by user
+2024-11-21 01:53:47,876 - INFO - Cleanup completed
+2024-11-21 01:54:23,630 - INFO - Preparing dataset and DataLoader...
+2024-11-21 01:54:23,630 - INFO - Loading games from ../data.pgn...
+2024-11-21 01:58:10,340 - INFO - Preparing dataset and DataLoader...
+2024-11-21 01:58:10,340 - INFO - Loading games from ../data.pgn...
+2024-11-21 01:58:12,296 - INFO - Loaded 1000 games from the dataset.
+2024-11-21 01:58:12,297 - INFO - Dataset and DataLoader prepared.
+2024-11-21 01:58:12,297 - INFO - Initializing model, criterion, and optimizer...
+2024-11-21 01:58:13,053 - INFO - Model, criterion, optimizer, and scheduler initialized.
+2024-11-21 01:58:13,433 - INFO - Training started...
+2024-11-21 01:58:14,124 - INFO - Epoch [1/20], Loss: 0.8465
+2024-11-21 01:58:14,498 - INFO - Epoch [2/20], Loss: 0.5165
+2024-11-21 01:58:14,853 - INFO - Epoch [3/20], Loss: 0.1545
+2024-11-21 01:58:15,209 - INFO - Epoch [4/20], Loss: 0.0215
+2024-11-21 01:58:15,568 - INFO - Epoch [5/20], Loss: 0.0019
+2024-11-21 01:58:15,923 - INFO - Epoch [6/20], Loss: 0.0006
+2024-11-21 01:58:16,279 - INFO - Epoch [7/20], Loss: 0.0006
+2024-11-21 01:58:16,639 - INFO - Epoch [8/20], Loss: 0.0007
+2024-11-21 01:58:16,993 - INFO - Epoch [9/20], Loss: 0.0007
+2024-11-21 01:58:17,348 - INFO - Epoch [10/20], Loss: 0.0007
+2024-11-21 01:58:17,478 - INFO - Model checkpoint saved for epoch 10.
+2024-11-21 01:58:17,837 - INFO - Epoch [11/20], Loss: 0.0007
+2024-11-21 01:58:18,191 - INFO - Epoch [12/20], Loss: 0.0007
+2024-11-21 01:58:18,547 - INFO - Epoch [13/20], Loss: 0.0007
+2024-11-21 01:58:18,904 - INFO - Epoch [14/20], Loss: 0.0007
+2024-11-21 01:58:19,260 - INFO - Epoch [15/20], Loss: 0.0007
+2024-11-21 01:58:19,616 - INFO - Epoch [16/20], Loss: 0.0007
+2024-11-21 01:58:19,972 - INFO - Epoch [17/20], Loss: 0.0006
+2024-11-21 01:58:20,328 - INFO - Epoch [18/20], Loss: 0.0006
+2024-11-21 01:58:20,684 - INFO - Epoch [19/20], Loss: 0.0006
+2024-11-21 01:58:21,039 - INFO - Epoch [20/20], Loss: 0.0006
+2024-11-21 01:58:21,168 - INFO - Model checkpoint saved for epoch 20.
+2024-11-21 01:58:21,297 - INFO - Training completed. Final model saved.
+2024-11-21 01:58:21,497 - INFO - Model loaded from chess_model.pth
+2024-11-21 01:58:21,497 - INFO - Starting a new game...
+2024-11-21 01:58:21,534 - INFO - Best move predicted: e2e4
+2024-11-21 01:58:21,534 - INFO - Move: e2e4
+2024-11-21 01:58:21,534 - DEBUG - Board after move:
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . P . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+2024-11-21 01:58:21,537 - INFO - Best move predicted: a7a6
+2024-11-21 01:58:21,537 - INFO - Move: a7a6
+2024-11-21 01:58:21,537 - DEBUG - Board after move:
+r n b q k b n r
+. p p p p p p p
+p . . . . . . .
+. . . . . . . .
+. . . . P . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+2024-11-21 01:58:21,539 - INFO - Best move predicted: d2d4
+2024-11-21 01:58:21,539 - INFO - Move: d2d4
+2024-11-21 01:58:21,539 - DEBUG - Board after move:
+r n b q k b n r
+. p p p p p p p
+p . . . . . . .
+. . . . . . . .
+. . . P P . . .
+. . . . . . . .
+P P P . . P P P
+R N B Q K B N R
+2024-11-21 01:58:21,541 - INFO - Best move predicted: g8f6
+2024-11-21 01:58:21,541 - INFO - Move: g8f6
+2024-11-21 01:58:21,542 - DEBUG - Board after move:
+r n b q k b . r
+. p p p p p p p
+p . . . . n . .
+. . . . . . . .
+. . . P P . . .
+. . . . . . . .
+P P P . . P P P
+R N B Q K B N R
+2024-11-21 01:58:21,543 - INFO - Best move predicted: g2g3
+2024-11-21 01:58:21,544 - INFO - Move: g2g3
+2024-11-21 01:58:21,544 - DEBUG - Board after move:
+r n b q k b . r
+. p p p p p p p
+p . . . . n . .
+. . . . . . . .
+. . . P P . . .
+. . . . . . P .
+P P P . . P . P
+R N B Q K B N R
+2024-11-21 01:58:21,545 - INFO - Best move predicted: a8a7
+2024-11-21 01:58:21,546 - INFO - Move: a8a7
+2024-11-21 01:58:21,546 - DEBUG - Board after move:
+. n b q k b . r
+r p p p p p p p
+p . . . . n . .
+. . . . . . . .
+. . . P P . . .
+. . . . . . P .
+P P P . . P . P
+R N B Q K B N R
+2024-11-21 01:58:21,547 - INFO - Best move predicted: g1f3
+2024-11-21 01:58:21,547 - INFO - Move: g1f3
+2024-11-21 01:58:21,548 - DEBUG - Board after move:
+. n b q k b . r
+r p p p p p p p
+p . . . . n . .
+. . . . . . . .
+. . . P P . . .
+. . . . . N P .
+P P P . . P . P
+R N B Q K B . R
+2024-11-21 01:58:21,549 - INFO - Best move predicted: b7b6
+2024-11-21 01:58:21,549 - INFO - Move: b7b6
+2024-11-21 01:58:21,549 - DEBUG - Board after move:
+. n b q k b . r
+r . p p p p p p
+p p . . . n . .
+. . . . . . . .
+. . . P P . . .
+. . . . . N P .
+P P P . . P . P
+R N B Q K B . R
+2024-11-21 01:58:21,551 - INFO - Best move predicted: c2c4
+2024-11-21 01:58:21,551 - INFO - Move: c2c4
+2024-11-21 01:58:21,551 - DEBUG - Board after move:
+. n b q k b . r
+r . p p p p p p
+p p . . . n . .
+. . . . . . . .
+. . P P P . . .
+. . . . . N P .
+P P . . . P . P
+R N B Q K B . R
+2024-11-21 01:58:21,553 - INFO - Best move predicted: b6b5
+2024-11-21 01:58:21,553 - INFO - Move: b6b5
+2024-11-21 01:58:21,553 - DEBUG - Board after move:
+. n b q k b . r
+r . p p p p p p
+p . . . . n . .
+. p . . . . . .
+. . P P P . . .
+. . . . . N P .
+P P . . . P . P
+R N B Q K B . R
+2024-11-21 01:58:21,554 - INFO - Best move predicted: b2b3
+2024-11-21 01:58:21,554 - INFO - Move: b2b3
+2024-11-21 01:58:21,554 - DEBUG - Board after move:
+. n b q k b . r
+r . p p p p p p
+p . . . . n . .
+. p . . . . . .
+. . P P P . . .
+. P . . . N P .
+P . . . . P . P
+R N B Q K B . R
+2024-11-21 01:58:21,556 - INFO - Best move predicted: b5b4
+2024-11-21 01:58:21,556 - INFO - Move: b5b4
+2024-11-21 01:58:21,556 - DEBUG - Board after move:
+. n b q k b . r
+r . p p p p p p
+p . . . . n . .
+. . . . . . . .
+. p P P P . . .
+. P . . . N P .
+P . . . . P . P
+R N B Q K B . R
+2024-11-21 01:58:21,557 - INFO - Best move predicted: h2h4
+2024-11-21 01:58:21,557 - INFO - Move: h2h4
+2024-11-21 01:58:21,557 - DEBUG - Board after move:
+. n b q k b . r
+r . p p p p p p
+p . . . . n . .
+. . . . . . . .
+. p P P P . . P
+. P . . . N P .
+P . . . . P . .
+R N B Q K B . R
+2024-11-21 01:58:21,559 - INFO - Best move predicted: f6g4
+2024-11-21 01:58:21,559 - INFO - Move: f6g4
+2024-11-21 01:58:21,559 - DEBUG - Board after move:
+. n b q k b . r
+r . p p p p p p
+p . . . . . . .
+. . . . . . . .
+. p P P P . n P
+. P . . . N P .
+P . . . . P . .
+R N B Q K B . R
+2024-11-21 01:58:21,560 - INFO - Best move predicted: b1c3
+2024-11-21 01:58:21,560 - INFO - Move: b1c3
+2024-11-21 01:58:21,560 - DEBUG - Board after move:
+. n b q k b . r
+r . p p p p p p
+p . . . . . . .
+. . . . . . . .
+. p P P P . n P
+. P N . . N P .
+P . . . . P . .
+R . B Q K B . R
+2024-11-21 01:58:21,561 - INFO - Best move predicted: g4e5
+2024-11-21 01:58:21,562 - INFO - Move: g4e5
+2024-11-21 01:58:21,562 - DEBUG - Board after move:
+. n b q k b . r
+r . p p p p p p
+p . . . . . . .
+. . . . n . . .
+. p P P P . . P
+. P N . . N P .
+P . . . . P . .
+R . B Q K B . R
+2024-11-21 01:58:21,563 - INFO - Best move predicted: a2a3
+2024-11-21 01:58:21,563 - INFO - Move: a2a3
+2024-11-21 01:58:21,563 - DEBUG - Board after move:
+. n b q k b . r
+r . p p p p p p
+p . . . . . . .
+. . . . n . . .
+. p P P P . . P
+P P N . . N P .
+. . . . . P . .
+R . B Q K B . R
+2024-11-21 01:58:21,564 - INFO - Best move predicted: e5f3
+2024-11-21 01:58:21,564 - INFO - Move: e5f3
+2024-11-21 01:58:21,565 - DEBUG - Board after move:
+. n b q k b . r
+r . p p p p p p
+p . . . . . . .
+. . . . . . . .
+. p P P P . . P
+P P N . . n P .
+. . . . . P . .
+R . B Q K B . R
+2024-11-21 01:58:21,566 - INFO - Best move predicted: d1f3
+2024-11-21 01:58:21,566 - INFO - Move: d1f3
+2024-11-21 01:58:21,566 - DEBUG - Board after move:
+. n b q k b . r
+r . p p p p p p
+p . . . . . . .
+. . . . . . . .
+. p P P P . . P
+P P N . . Q P .
+. . . . . P . .
+R . B . K B . R
+2024-11-21 01:58:21,567 - INFO - Best move predicted: c8b7
+2024-11-21 01:58:21,567 - INFO - Move: c8b7
+2024-11-21 01:58:21,567 - DEBUG - Board after move:
+. n . q k b . r
+r b p p p p p p
+p . . . . . . .
+. . . . . . . .
+. p P P P . . P
+P P N . . Q P .
+. . . . . P . .
+R . B . K B . R
+2024-11-21 01:58:21,568 - INFO - Best move predicted: c3b5
+2024-11-21 01:58:21,569 - INFO - Move: c3b5
+2024-11-21 01:58:21,569 - DEBUG - Board after move:
+. n . q k b . r
+r b p p p p p p
+p . . . . . . .
+. N . . . . . .
+. p P P P . . P
+P P . . . Q P .
+. . . . . P . .
+R . B . K B . R
+2024-11-21 01:58:21,570 - INFO - Best move predicted: b7c6
+2024-11-21 01:58:21,570 - INFO - Move: b7c6
+2024-11-21 01:58:21,570 - DEBUG - Board after move:
+. n . q k b . r
+r . p p p p p p
+p . b . . . . .
+. N . . . . . .
+. p P P P . . P
+P P . . . Q P .
+. . . . . P . .
+R . B . K B . R
+2024-11-21 01:58:21,571 - INFO - Best move predicted: b5a7
+2024-11-21 01:58:21,571 - INFO - Move: b5a7
+2024-11-21 01:58:21,572 - DEBUG - Board after move:
+. n . q k b . r
+N . p p p p p p
+p . b . . . . .
+. . . . . . . .
+. p P P P . . P
+P P . . . Q P .
+. . . . . P . .
+R . B . K B . R
+2024-11-21 01:58:21,573 - INFO - Best move predicted: c6a4
+2024-11-21 01:58:21,573 - INFO - Move: c6a4
+2024-11-21 01:58:21,573 - DEBUG - Board after move:
+. n . q k b . r
+N . p p p p p p
+p . . . . . . .
+. . . . . . . .
+b p P P P . . P
+P P . . . Q P .
+. . . . . P . .
+R . B . K B . R
+2024-11-21 01:58:21,574 - INFO - Best move predicted: c1g5
+2024-11-21 01:58:21,574 - INFO - Move: c1g5
+2024-11-21 01:58:21,574 - DEBUG - Board after move:
+. n . q k b . r
+N . p p p p p p
+p . . . . . . .
+. . . . . . B .
+b p P P P . . P
+P P . . . Q P .
+. . . . . P . .
+R . . . K B . R
+2024-11-21 01:58:21,575 - INFO - Best move predicted: a4b5
+2024-11-21 01:58:21,575 - INFO - Move: a4b5
+2024-11-21 01:58:21,575 - DEBUG - Board after move:
+. n . q k b . r
+N . p p p p p p
+p . . . . . . .
+. b . . . . B .
+. p P P P . . P
+P P . . . Q P .
+. . . . . P . .
+R . . . K B . R
+2024-11-21 01:58:21,577 - INFO - Best move predicted: f1d3
+2024-11-21 01:58:21,577 - INFO - Move: f1d3
+2024-11-21 01:58:21,577 - DEBUG - Board after move:
+. n . q k b . r
+N . p p p p p p
+p . . . . . . .
+. b . . . . B .
+. p P P P . . P
+P P . B . Q P .
+. . . . . P . .
+R . . . K . . R
+2024-11-21 01:58:21,578 - INFO - Best move predicted: c7c6
+2024-11-21 01:58:21,578 - INFO - Move: c7c6
+2024-11-21 01:58:21,578 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. b . . . . B .
+. p P P P . . P
+P P . B . Q P .
+. . . . . P . .
+R . . . K . . R
+2024-11-21 01:58:21,579 - INFO - Best move predicted: d3b1
+2024-11-21 01:58:21,579 - INFO - Move: d3b1
+2024-11-21 01:58:21,580 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. b . . . . B .
+. p P P P . . P
+P P . . . Q P .
+. . . . . P . .
+R B . . K . . R
+2024-11-21 01:58:21,581 - INFO - Best move predicted: b5a4
+2024-11-21 01:58:21,581 - INFO - Move: b5a4
+2024-11-21 01:58:21,581 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. . . . . . B .
+b p P P P . . P
+P P . . . Q P .
+. . . . . P . .
+R B . . K . . R
+2024-11-21 01:58:21,582 - INFO - Best move predicted: h1f1
+2024-11-21 01:58:21,582 - INFO - Move: h1f1
+2024-11-21 01:58:21,582 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. . . . . . B .
+b p P P P . . P
+P P . . . Q P .
+. . . . . P . .
+R B . . K R . .
+2024-11-21 01:58:21,583 - INFO - Best move predicted: a4b5
+2024-11-21 01:58:21,583 - INFO - Move: a4b5
+2024-11-21 01:58:21,584 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. b . . . . B .
+. p P P P . . P
+P P . . . Q P .
+. . . . . P . .
+R B . . K R . .
+2024-11-21 01:58:21,585 - INFO - Best move predicted: f3e2
+2024-11-21 01:58:21,585 - INFO - Move: f3e2
+2024-11-21 01:58:21,585 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. b . . . . B .
+. p P P P . . P
+P P . . . . P .
+. . . . Q P . .
+R B . . K R . .
+2024-11-21 01:58:21,586 - INFO - Best move predicted: b5a4
+2024-11-21 01:58:21,586 - INFO - Move: b5a4
+2024-11-21 01:58:21,586 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. . . . . . B .
+b p P P P . . P
+P P . . . . P .
+. . . . Q P . .
+R B . . K R . .
+2024-11-21 01:58:21,588 - INFO - Best move predicted: f2f4
+2024-11-21 01:58:21,588 - INFO - Move: f2f4
+2024-11-21 01:58:21,588 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. . . . . . B .
+b p P P P P . P
+P P . . . . P .
+. . . . Q . . .
+R B . . K R . .
+2024-11-21 01:58:21,589 - INFO - Best move predicted: a4b5
+2024-11-21 01:58:21,589 - INFO - Move: a4b5
+2024-11-21 01:58:21,589 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. b . . . . B .
+. p P P P P . P
+P P . . . . P .
+. . . . Q . . .
+R B . . K R . .
+2024-11-21 01:58:21,590 - INFO - Best move predicted: e2e3
+2024-11-21 01:58:21,590 - INFO - Move: e2e3
+2024-11-21 01:58:21,591 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. b . . . . B .
+. p P P P P . P
+P P . . Q . P .
+. . . . . . . .
+R B . . K R . .
+2024-11-21 01:58:21,592 - INFO - Best move predicted: b5a4
+2024-11-21 01:58:21,592 - INFO - Move: b5a4
+2024-11-21 01:58:21,592 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. . . . . . B .
+b p P P P P . P
+P P . . Q . P .
+. . . . . . . .
+R B . . K R . .
+2024-11-21 01:58:21,593 - INFO - Best move predicted: e3g1
+2024-11-21 01:58:21,593 - INFO - Move: e3g1
+2024-11-21 01:58:21,593 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. . . . . . B .
+b p P P P P . P
+P P . . . . P .
+. . . . . . . .
+R B . . K R Q .
+2024-11-21 01:58:21,594 - INFO - Best move predicted: a4b5
+2024-11-21 01:58:21,594 - INFO - Move: a4b5
+2024-11-21 01:58:21,594 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. b . . . . B .
+. p P P P P . P
+P P . . . . P .
+. . . . . . . .
+R B . . K R Q .
+2024-11-21 01:58:21,596 - INFO - Best move predicted: g1e3
+2024-11-21 01:58:21,596 - INFO - Move: g1e3
+2024-11-21 01:58:21,596 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. b . . . . B .
+. p P P P P . P
+P P . . Q . P .
+. . . . . . . .
+R B . . K R . .
+2024-11-21 01:58:21,597 - INFO - Best move predicted: b5a4
+2024-11-21 01:58:21,597 - INFO - Move: b5a4
+2024-11-21 01:58:21,597 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. . . . . . B .
+b p P P P P . P
+P P . . Q . P .
+. . . . . . . .
+R B . . K R . .
+2024-11-21 01:58:21,598 - INFO - Best move predicted: e3g1
+2024-11-21 01:58:21,598 - INFO - Move: e3g1
+2024-11-21 01:58:21,598 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. . . . . . B .
+b p P P P P . P
+P P . . . . P .
+. . . . . . . .
+R B . . K R Q .
+2024-11-21 01:58:21,600 - INFO - Best move predicted: a4b5
+2024-11-21 01:58:21,600 - INFO - Move: a4b5
+2024-11-21 01:58:21,600 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. b . . . . B .
+. p P P P P . P
+P P . . . . P .
+. . . . . . . .
+R B . . K R Q .
+2024-11-21 01:58:21,601 - INFO - Best move predicted: g1e3
+2024-11-21 01:58:21,601 - INFO - Move: g1e3
+2024-11-21 01:58:21,601 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. b . . . . B .
+. p P P P P . P
+P P . . Q . P .
+. . . . . . . .
+R B . . K R . .
+2024-11-21 01:58:21,602 - INFO - Best move predicted: b5a4
+2024-11-21 01:58:21,602 - INFO - Move: b5a4
+2024-11-21 01:58:21,602 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. . . . . . B .
+b p P P P P . P
+P P . . Q . P .
+. . . . . . . .
+R B . . K R . .
+2024-11-21 01:58:21,604 - INFO - Best move predicted: e3g1
+2024-11-21 01:58:21,604 - INFO - Move: e3g1
+2024-11-21 01:58:21,604 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. . . . . . B .
+b p P P P P . P
+P P . . . . P .
+. . . . . . . .
+R B . . K R Q .
+2024-11-21 01:58:21,605 - INFO - Best move predicted: a4b5
+2024-11-21 01:58:21,605 - INFO - Move: a4b5
+2024-11-21 01:58:21,605 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. b . . . . B .
+. p P P P P . P
+P P . . . . P .
+. . . . . . . .
+R B . . K R Q .
+2024-11-21 01:58:21,606 - INFO - Best move predicted: g1e3
+2024-11-21 01:58:21,606 - INFO - Move: g1e3
+2024-11-21 01:58:21,607 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. b . . . . B .
+. p P P P P . P
+P P . . Q . P .
+. . . . . . . .
+R B . . K R . .
+2024-11-21 01:58:21,608 - INFO - Best move predicted: b5a4
+2024-11-21 01:58:21,608 - INFO - Move: b5a4
+2024-11-21 01:58:21,608 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. . . . . . B .
+b p P P P P . P
+P P . . Q . P .
+. . . . . . . .
+R B . . K R . .
+2024-11-21 01:58:21,609 - INFO - Best move predicted: e3g1
+2024-11-21 01:58:21,609 - INFO - Move: e3g1
+2024-11-21 01:58:21,609 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. . . . . . B .
+b p P P P P . P
+P P . . . . P .
+. . . . . . . .
+R B . . K R Q .
+2024-11-21 01:58:21,610 - INFO - Best move predicted: a4b5
+2024-11-21 01:58:21,611 - INFO - Move: a4b5
+2024-11-21 01:58:21,611 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. b . . . . B .
+. p P P P P . P
+P P . . . . P .
+. . . . . . . .
+R B . . K R Q .
+2024-11-21 01:58:21,612 - INFO - Best move predicted: g1e3
+2024-11-21 01:58:21,612 - INFO - Move: g1e3
+2024-11-21 01:58:21,612 - DEBUG - Board after move:
+. n . q k b . r
+N . . p p p p p
+p . p . . . . .
+. b . . . . B .
+. p P P P P . P
+P P . . Q . P .
+. . . . . . . .
+R B . . K R . .
+2024-11-21 01:58:21,612 - INFO - Game over.
+2024-11-21 02:00:42,008 - INFO - Preparing dataset and DataLoader...
+2024-11-21 02:00:42,008 - INFO - Loading games from ../data.pgn...
+2024-11-21 02:01:01,794 - INFO - Loaded 10000 games from the dataset.
+2024-11-21 02:01:01,794 - INFO - Dataset and DataLoader prepared.
+2024-11-21 02:01:01,794 - INFO - Initializing model, criterion, and optimizer...
+2024-11-21 02:01:02,413 - INFO - Model, criterion, optimizer, and scheduler initialized.
+2024-11-21 02:01:02,810 - INFO - Training started...
+2024-11-21 02:01:06,665 - INFO - Epoch [1/20], Loss: 0.1559
+2024-11-21 02:01:10,264 - INFO - Epoch [2/20], Loss: 0.0007
+2024-11-21 02:01:13,895 - INFO - Epoch [3/20], Loss: 0.0004
+2024-11-21 02:01:17,495 - INFO - Epoch [4/20], Loss: 0.0002
+2024-11-21 02:01:21,097 - INFO - Epoch [5/20], Loss: 0.0002
+2024-11-21 02:01:24,697 - INFO - Epoch [6/20], Loss: 0.0002
+2024-11-21 02:01:28,300 - INFO - Epoch [7/20], Loss: 0.0001
+2024-11-21 02:01:31,898 - INFO - Epoch [8/20], Loss: 0.0001
+2024-11-21 02:01:35,496 - INFO - Epoch [9/20], Loss: 0.0001
+2024-11-21 02:01:39,093 - INFO - Epoch [10/20], Loss: 0.0001
+2024-11-21 02:01:39,449 - INFO - Model checkpoint saved for epoch 10.
+2024-11-21 02:01:43,094 - INFO - Epoch [11/20], Loss: 0.0001
+2024-11-21 02:01:46,700 - INFO - Epoch [12/20], Loss: 0.0001
+2024-11-21 02:01:50,296 - INFO - Epoch [13/20], Loss: 0.0001
+2024-11-21 02:01:53,902 - INFO - Epoch [14/20], Loss: 0.0001
+2024-11-21 02:01:57,507 - INFO - Epoch [15/20], Loss: 0.0001
+2024-11-21 02:02:01,109 - INFO - Epoch [16/20], Loss: 0.0001
+2024-11-21 02:02:04,710 - INFO - Epoch [17/20], Loss: 0.0001
+2024-11-21 02:02:08,296 - INFO - Epoch [18/20], Loss: 0.0001
+2024-11-21 02:02:11,897 - INFO - Epoch [19/20], Loss: 0.0001
+2024-11-21 02:02:15,498 - INFO - Epoch [20/20], Loss: 0.0001
+2024-11-21 02:02:15,857 - INFO - Model checkpoint saved for epoch 20.
+2024-11-21 02:02:16,246 - INFO - Training completed. Final model saved.
+2024-11-21 02:02:16,487 - INFO - Model loaded from chess_model.pth
+2024-11-21 02:02:16,487 - INFO - Starting a new game...
+2024-11-21 02:02:16,493 - INFO - Best move predicted: e2e4
+2024-11-21 02:02:16,493 - INFO - Move: e2e4
+2024-11-21 02:02:16,494 - DEBUG - Board after move:
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . P . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+2024-11-21 02:02:16,495 - INFO - Best move predicted: b8a6
+2024-11-21 02:02:16,495 - INFO - Move: b8a6
+2024-11-21 02:02:16,495 - DEBUG - Board after move:
+r . b q k b n r
+p p p p p p p p
+n . . . . . . .
+. . . . . . . .
+. . . . P . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+2024-11-21 02:02:16,496 - INFO - Best move predicted: d2d4
+2024-11-21 02:02:16,496 - INFO - Move: d2d4
+2024-11-21 02:02:16,496 - DEBUG - Board after move:
+r . b q k b n r
+p p p p p p p p
+n . . . . . . .
+. . . . . . . .
+. . . P P . . .
+. . . . . . . .
+P P P . . P P P
+R N B Q K B N R
+2024-11-21 02:02:16,497 - INFO - Best move predicted: a6b4
+2024-11-21 02:02:16,498 - INFO - Move: a6b4
+2024-11-21 02:02:16,498 - DEBUG - Board after move:
+r . b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. n . P P . . .
+. . . . . . . .
+P P P . . P P P
+R N B Q K B N R
+2024-11-21 02:02:16,499 - INFO - Best move predicted: g1f3
+2024-11-21 02:02:16,499 - INFO - Move: g1f3
+2024-11-21 02:02:16,499 - DEBUG - Board after move:
+r . b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. n . P P . . .
+. . . . . N . .
+P P P . . P P P
+R N B Q K B . R
+2024-11-21 02:02:16,500 - INFO - Best move predicted: e7e6
+2024-11-21 02:02:16,500 - INFO - Move: e7e6
+2024-11-21 02:02:16,501 - DEBUG - Board after move:
+r . b q k b n r
+p p p p . p p p
+. . . . p . . .
+. . . . . . . .
+. n . P P . . .
+. . . . . N . .
+P P P . . P P P
+R N B Q K B . R
+2024-11-21 02:02:16,502 - INFO - Best move predicted: c2c4
+2024-11-21 02:02:16,502 - INFO - Move: c2c4
+2024-11-21 02:02:16,502 - DEBUG - Board after move:
+r . b q k b n r
+p p p p . p p p
+. . . . p . . .
+. . . . . . . .
+. n P P P . . .
+. . . . . N . .
+P P . . . P P P
+R N B Q K B . R
+2024-11-21 02:02:16,503 - INFO - Best move predicted: f8e7
+2024-11-21 02:02:16,503 - INFO - Move: f8e7
+2024-11-21 02:02:16,503 - DEBUG - Board after move:
+r . b q k . n r
+p p p p b p p p
+. . . . p . . .
+. . . . . . . .
+. n P P P . . .
+. . . . . N . .
+P P . . . P P P
+R N B Q K B . R
+2024-11-21 02:02:16,505 - INFO - Best move predicted: b2b3
+2024-11-21 02:02:16,505 - INFO - Move: b2b3
+2024-11-21 02:02:16,505 - DEBUG - Board after move:
+r . b q k . n r
+p p p p b p p p
+. . . . p . . .
+. . . . . . . .
+. n P P P . . .
+. P . . . N . .
+P . . . . P P P
+R N B Q K B . R
+2024-11-21 02:02:16,506 - INFO - Best move predicted: b4a2
+2024-11-21 02:02:16,506 - INFO - Move: b4a2
+2024-11-21 02:02:16,506 - DEBUG - Board after move:
+r . b q k . n r
+p p p p b p p p
+. . . . p . . .
+. . . . . . . .
+. . P P P . . .
+. P . . . N . .
+n . . . . P P P
+R N B Q K B . R
+2024-11-21 02:02:16,507 - INFO - Best move predicted: g2g3
+2024-11-21 02:02:16,508 - INFO - Move: g2g3
+2024-11-21 02:02:16,508 - DEBUG - Board after move:
+r . b q k . n r
+p p p p b p p p
+. . . . p . . .
+. . . . . . . .
+. . P P P . . .
+. P . . . N P .
+n . . . . P . P
+R N B Q K B . R
+2024-11-21 02:02:16,509 - INFO - Best move predicted: a7a5
+2024-11-21 02:02:16,509 - INFO - Move: a7a5
+2024-11-21 02:02:16,509 - DEBUG - Board after move:
+r . b q k . n r
+. p p p b p p p
+. . . . p . . .
+p . . . . . . .
+. . P P P . . .
+. P . . . N P .
+n . . . . P . P
+R N B Q K B . R
+2024-11-21 02:02:16,510 - INFO - Best move predicted: b1c3
+2024-11-21 02:02:16,511 - INFO - Move: b1c3
+2024-11-21 02:02:16,511 - DEBUG - Board after move:
+r . b q k . n r
+. p p p b p p p
+. . . . p . . .
+p . . . . . . .
+. . P P P . . .
+. P N . . N P .
+n . . . . P . P
+R . B Q K B . R
+2024-11-21 02:02:16,512 - INFO - Best move predicted: a5a4
+2024-11-21 02:02:16,512 - INFO - Move: a5a4
+2024-11-21 02:02:16,512 - DEBUG - Board after move:
+r . b q k . n r
+. p p p b p p p
+. . . . p . . .
+. . . . . . . .
+p . P P P . . .
+. P N . . N P .
+n . . . . P . P
+R . B Q K B . R
+2024-11-21 02:02:16,513 - INFO - Best move predicted: h2h4
+2024-11-21 02:02:16,513 - INFO - Move: h2h4
+2024-11-21 02:02:16,513 - DEBUG - Board after move:
+r . b q k . n r
+. p p p b p p p
+. . . . p . . .
+. . . . . . . .
+p . P P P . . P
+. P N . . N P .
+n . . . . P . .
+R . B Q K B . R
+2024-11-21 02:02:16,515 - INFO - Best move predicted: e7g5
+2024-11-21 02:02:16,515 - INFO - Move: e7g5
+2024-11-21 02:02:16,515 - DEBUG - Board after move:
+r . b q k . n r
+. p p p . p p p
+. . . . p . . .
+. . . . . . b .
+p . P P P . . P
+. P N . . N P .
+n . . . . P . .
+R . B Q K B . R
+2024-11-21 02:02:16,516 - INFO - Best move predicted: c3d5
+2024-11-21 02:02:16,516 - INFO - Move: c3d5
+2024-11-21 02:02:16,516 - DEBUG - Board after move:
+r . b q k . n r
+. p p p . p p p
+. . . . p . . .
+. . . N . . b .
+p . P P P . . P
+. P . . . N P .
+n . . . . P . .
+R . B Q K B . R
+2024-11-21 02:02:16,518 - INFO - Best move predicted: a8a6
+2024-11-21 02:02:16,518 - INFO - Move: a8a6
+2024-11-21 02:02:16,518 - DEBUG - Board after move:
+. . b q k . n r
+. p p p . p p p
+r . . . p . . .
+. . . N . . b .
+p . P P P . . P
+. P . . . N P .
+n . . . . P . .
+R . B Q K B . R
+2024-11-21 02:02:16,519 - INFO - Best move predicted: d5e7
+2024-11-21 02:02:16,519 - INFO - Move: d5e7
+2024-11-21 02:02:16,519 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p p
+r . . . p . . .
+. . . . . . b .
+p . P P P . . P
+. P . . . N P .
+n . . . . P . .
+R . B Q K B . R
+2024-11-21 02:02:16,520 - INFO - Best move predicted: h7h5
+2024-11-21 02:02:16,520 - INFO - Move: h7h5
+2024-11-21 02:02:16,521 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . p . . .
+. . . . . . b p
+p . P P P . . P
+. P . . . N P .
+n . . . . P . .
+R . B Q K B . R
+2024-11-21 02:02:16,522 - INFO - Best move predicted: h4g5
+2024-11-21 02:02:16,522 - INFO - Move: h4g5
+2024-11-21 02:02:16,522 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . p . . .
+. . . . . . P p
+p . P P P . . .
+. P . . . N P .
+n . . . . P . .
+R . B Q K B . R
+2024-11-21 02:02:16,523 - INFO - Best move predicted: h5h4
+2024-11-21 02:02:16,523 - INFO - Move: h5h4
+2024-11-21 02:02:16,523 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . p . . .
+. . . . . . P .
+p . P P P . . p
+. P . . . N P .
+n . . . . P . .
+R . B Q K B . R
+2024-11-21 02:02:16,524 - INFO - Best move predicted: e1e2
+2024-11-21 02:02:16,525 - INFO - Move: e1e2
+2024-11-21 02:02:16,525 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . p . . .
+. . . . . . P .
+p . P P P . . p
+. P . . . N P .
+n . . . K P . .
+R . B Q . B . R
+2024-11-21 02:02:16,526 - INFO - Best move predicted: e6e5
+2024-11-21 02:02:16,526 - INFO - Move: e6e5
+2024-11-21 02:02:16,526 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . p . P .
+p . P P P . . p
+. P . . . N P .
+n . . . K P . .
+R . B Q . B . R
+2024-11-21 02:02:16,527 - INFO - Best move predicted: e2e3
+2024-11-21 02:02:16,527 - INFO - Move: e2e3
+2024-11-21 02:02:16,527 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . p . P .
+p . P P P . . p
+. P . . K N P .
+n . . . . P . .
+R . B Q . B . R
+2024-11-21 02:02:16,529 - INFO - Best move predicted: e5d4
+2024-11-21 02:02:16,529 - INFO - Move: e5d4
+2024-11-21 02:02:16,529 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . . . P .
+p . P p P . . p
+. P . . K N P .
+n . . . . P . .
+R . B Q . B . R
+2024-11-21 02:02:16,530 - INFO - Best move predicted: d1d4
+2024-11-21 02:02:16,530 - INFO - Move: d1d4
+2024-11-21 02:02:16,530 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,531 - INFO - Best move predicted: a6e6
+2024-11-21 02:02:16,531 - INFO - Move: a6e6
+2024-11-21 02:02:16,532 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,533 - INFO - Best move predicted: d4e5
+2024-11-21 02:02:16,533 - INFO - Move: d4e5
+2024-11-21 02:02:16,533 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,534 - INFO - Best move predicted: e6f6
+2024-11-21 02:02:16,534 - INFO - Move: e6f6
+2024-11-21 02:02:16,534 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,536 - INFO - Best move predicted: e5d5
+2024-11-21 02:02:16,536 - INFO - Move: e5d5
+2024-11-21 02:02:16,536 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,537 - INFO - Best move predicted: f6a6
+2024-11-21 02:02:16,537 - INFO - Move: f6a6
+2024-11-21 02:02:16,537 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,538 - INFO - Best move predicted: d5d2
+2024-11-21 02:02:16,538 - INFO - Move: d5d2
+2024-11-21 02:02:16,538 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,540 - INFO - Best move predicted: a6e6
+2024-11-21 02:02:16,540 - INFO - Move: a6e6
+2024-11-21 02:02:16,540 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,541 - INFO - Best move predicted: d2d4
+2024-11-21 02:02:16,541 - INFO - Move: d2d4
+2024-11-21 02:02:16,541 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,542 - INFO - Best move predicted: e6f6
+2024-11-21 02:02:16,542 - INFO - Move: e6f6
+2024-11-21 02:02:16,542 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,544 - INFO - Best move predicted: d4e5
+2024-11-21 02:02:16,544 - INFO - Move: d4e5
+2024-11-21 02:02:16,544 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,545 - INFO - Best move predicted: f6a6
+2024-11-21 02:02:16,545 - INFO - Move: f6a6
+2024-11-21 02:02:16,545 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,546 - INFO - Best move predicted: e5d5
+2024-11-21 02:02:16,547 - INFO - Move: e5d5
+2024-11-21 02:02:16,547 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,548 - INFO - Best move predicted: a6e6
+2024-11-21 02:02:16,548 - INFO - Move: a6e6
+2024-11-21 02:02:16,548 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,549 - INFO - Best move predicted: d5d2
+2024-11-21 02:02:16,549 - INFO - Move: d5d2
+2024-11-21 02:02:16,549 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,551 - INFO - Best move predicted: e6f6
+2024-11-21 02:02:16,551 - INFO - Move: e6f6
+2024-11-21 02:02:16,551 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,552 - INFO - Best move predicted: d2d4
+2024-11-21 02:02:16,552 - INFO - Move: d2d4
+2024-11-21 02:02:16,552 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,553 - INFO - Best move predicted: f6a6
+2024-11-21 02:02:16,553 - INFO - Move: f6a6
+2024-11-21 02:02:16,554 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,555 - INFO - Best move predicted: d4e5
+2024-11-21 02:02:16,555 - INFO - Move: d4e5
+2024-11-21 02:02:16,555 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,556 - INFO - Best move predicted: a6e6
+2024-11-21 02:02:16,556 - INFO - Move: a6e6
+2024-11-21 02:02:16,556 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,558 - INFO - Best move predicted: e5d5
+2024-11-21 02:02:16,558 - INFO - Move: e5d5
+2024-11-21 02:02:16,558 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,559 - INFO - Best move predicted: e6f6
+2024-11-21 02:02:16,559 - INFO - Move: e6f6
+2024-11-21 02:02:16,559 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,560 - INFO - Best move predicted: d5d2
+2024-11-21 02:02:16,561 - INFO - Move: d5d2
+2024-11-21 02:02:16,561 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,562 - INFO - Best move predicted: f6a6
+2024-11-21 02:02:16,562 - INFO - Move: f6a6
+2024-11-21 02:02:16,562 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,563 - INFO - Best move predicted: d2d4
+2024-11-21 02:02:16,563 - INFO - Move: d2d4
+2024-11-21 02:02:16,563 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,565 - INFO - Best move predicted: a6e6
+2024-11-21 02:02:16,565 - INFO - Move: a6e6
+2024-11-21 02:02:16,565 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,566 - INFO - Best move predicted: d4e5
+2024-11-21 02:02:16,566 - INFO - Move: d4e5
+2024-11-21 02:02:16,566 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,567 - INFO - Best move predicted: e6f6
+2024-11-21 02:02:16,568 - INFO - Move: e6f6
+2024-11-21 02:02:16,568 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,569 - INFO - Best move predicted: e5d5
+2024-11-21 02:02:16,569 - INFO - Move: e5d5
+2024-11-21 02:02:16,569 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,570 - INFO - Best move predicted: f6a6
+2024-11-21 02:02:16,570 - INFO - Move: f6a6
+2024-11-21 02:02:16,570 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,572 - INFO - Best move predicted: d5d2
+2024-11-21 02:02:16,572 - INFO - Move: d5d2
+2024-11-21 02:02:16,572 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,573 - INFO - Best move predicted: a6e6
+2024-11-21 02:02:16,573 - INFO - Move: a6e6
+2024-11-21 02:02:16,573 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,574 - INFO - Best move predicted: d2d4
+2024-11-21 02:02:16,575 - INFO - Move: d2d4
+2024-11-21 02:02:16,575 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,576 - INFO - Best move predicted: e6f6
+2024-11-21 02:02:16,576 - INFO - Move: e6f6
+2024-11-21 02:02:16,576 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,577 - INFO - Best move predicted: d4e5
+2024-11-21 02:02:16,577 - INFO - Move: d4e5
+2024-11-21 02:02:16,577 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,579 - INFO - Best move predicted: f6a6
+2024-11-21 02:02:16,579 - INFO - Move: f6a6
+2024-11-21 02:02:16,579 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,580 - INFO - Best move predicted: e5d5
+2024-11-21 02:02:16,580 - INFO - Move: e5d5
+2024-11-21 02:02:16,580 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,581 - INFO - Best move predicted: a6e6
+2024-11-21 02:02:16,581 - INFO - Move: a6e6
+2024-11-21 02:02:16,581 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,583 - INFO - Best move predicted: d5d2
+2024-11-21 02:02:16,583 - INFO - Move: d5d2
+2024-11-21 02:02:16,583 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,584 - INFO - Best move predicted: e6f6
+2024-11-21 02:02:16,584 - INFO - Move: e6f6
+2024-11-21 02:02:16,584 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,585 - INFO - Best move predicted: d2d4
+2024-11-21 02:02:16,586 - INFO - Move: d2d4
+2024-11-21 02:02:16,586 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,587 - INFO - Best move predicted: f6a6
+2024-11-21 02:02:16,587 - INFO - Move: f6a6
+2024-11-21 02:02:16,587 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,588 - INFO - Best move predicted: d4e5
+2024-11-21 02:02:16,588 - INFO - Move: d4e5
+2024-11-21 02:02:16,588 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,590 - INFO - Best move predicted: a6e6
+2024-11-21 02:02:16,590 - INFO - Move: a6e6
+2024-11-21 02:02:16,590 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,591 - INFO - Best move predicted: e5d5
+2024-11-21 02:02:16,591 - INFO - Move: e5d5
+2024-11-21 02:02:16,591 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,592 - INFO - Best move predicted: e6f6
+2024-11-21 02:02:16,592 - INFO - Move: e6f6
+2024-11-21 02:02:16,592 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,594 - INFO - Best move predicted: d5d2
+2024-11-21 02:02:16,594 - INFO - Move: d5d2
+2024-11-21 02:02:16,594 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,595 - INFO - Best move predicted: f6a6
+2024-11-21 02:02:16,595 - INFO - Move: f6a6
+2024-11-21 02:02:16,595 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,597 - INFO - Best move predicted: d2d4
+2024-11-21 02:02:16,597 - INFO - Move: d2d4
+2024-11-21 02:02:16,597 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,598 - INFO - Best move predicted: a6e6
+2024-11-21 02:02:16,598 - INFO - Move: a6e6
+2024-11-21 02:02:16,598 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,600 - INFO - Best move predicted: d4e5
+2024-11-21 02:02:16,600 - INFO - Move: d4e5
+2024-11-21 02:02:16,600 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,602 - INFO - Best move predicted: e6f6
+2024-11-21 02:02:16,602 - INFO - Move: e6f6
+2024-11-21 02:02:16,602 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,604 - INFO - Best move predicted: e5d5
+2024-11-21 02:02:16,604 - INFO - Move: e5d5
+2024-11-21 02:02:16,604 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,605 - INFO - Best move predicted: f6a6
+2024-11-21 02:02:16,605 - INFO - Move: f6a6
+2024-11-21 02:02:16,605 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,607 - INFO - Best move predicted: d5d2
+2024-11-21 02:02:16,607 - INFO - Move: d5d2
+2024-11-21 02:02:16,607 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,609 - INFO - Best move predicted: a6e6
+2024-11-21 02:02:16,609 - INFO - Move: a6e6
+2024-11-21 02:02:16,609 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,611 - INFO - Best move predicted: d2d4
+2024-11-21 02:02:16,611 - INFO - Move: d2d4
+2024-11-21 02:02:16,611 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,613 - INFO - Best move predicted: e6f6
+2024-11-21 02:02:16,613 - INFO - Move: e6f6
+2024-11-21 02:02:16,613 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,614 - INFO - Best move predicted: d4e5
+2024-11-21 02:02:16,614 - INFO - Move: d4e5
+2024-11-21 02:02:16,615 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,616 - INFO - Best move predicted: f6a6
+2024-11-21 02:02:16,616 - INFO - Move: f6a6
+2024-11-21 02:02:16,616 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,618 - INFO - Best move predicted: e5d5
+2024-11-21 02:02:16,618 - INFO - Move: e5d5
+2024-11-21 02:02:16,618 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,620 - INFO - Best move predicted: a6e6
+2024-11-21 02:02:16,620 - INFO - Move: a6e6
+2024-11-21 02:02:16,620 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,622 - INFO - Best move predicted: d5d2
+2024-11-21 02:02:16,622 - INFO - Move: d5d2
+2024-11-21 02:02:16,622 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,623 - INFO - Best move predicted: e6f6
+2024-11-21 02:02:16,623 - INFO - Move: e6f6
+2024-11-21 02:02:16,623 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,625 - INFO - Best move predicted: d2d4
+2024-11-21 02:02:16,625 - INFO - Move: d2d4
+2024-11-21 02:02:16,625 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,627 - INFO - Best move predicted: f6a6
+2024-11-21 02:02:16,627 - INFO - Move: f6a6
+2024-11-21 02:02:16,627 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,629 - INFO - Best move predicted: d4e5
+2024-11-21 02:02:16,629 - INFO - Move: d4e5
+2024-11-21 02:02:16,629 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,631 - INFO - Best move predicted: a6e6
+2024-11-21 02:02:16,631 - INFO - Move: a6e6
+2024-11-21 02:02:16,631 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,633 - INFO - Best move predicted: e5d5
+2024-11-21 02:02:16,633 - INFO - Move: e5d5
+2024-11-21 02:02:16,633 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,634 - INFO - Best move predicted: e6f6
+2024-11-21 02:02:16,634 - INFO - Move: e6f6
+2024-11-21 02:02:16,634 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,636 - INFO - Best move predicted: d5d2
+2024-11-21 02:02:16,636 - INFO - Move: d5d2
+2024-11-21 02:02:16,636 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,638 - INFO - Best move predicted: f6a6
+2024-11-21 02:02:16,638 - INFO - Move: f6a6
+2024-11-21 02:02:16,638 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,640 - INFO - Best move predicted: d2d4
+2024-11-21 02:02:16,640 - INFO - Move: d2d4
+2024-11-21 02:02:16,640 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,642 - INFO - Best move predicted: a6e6
+2024-11-21 02:02:16,642 - INFO - Move: a6e6
+2024-11-21 02:02:16,642 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,644 - INFO - Best move predicted: d4e5
+2024-11-21 02:02:16,644 - INFO - Move: d4e5
+2024-11-21 02:02:16,644 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,646 - INFO - Best move predicted: e6f6
+2024-11-21 02:02:16,646 - INFO - Move: e6f6
+2024-11-21 02:02:16,646 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,647 - INFO - Best move predicted: e5d5
+2024-11-21 02:02:16,648 - INFO - Move: e5d5
+2024-11-21 02:02:16,648 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,649 - INFO - Best move predicted: f6a6
+2024-11-21 02:02:16,649 - INFO - Move: f6a6
+2024-11-21 02:02:16,649 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,651 - INFO - Best move predicted: d5d2
+2024-11-21 02:02:16,651 - INFO - Move: d5d2
+2024-11-21 02:02:16,651 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,653 - INFO - Best move predicted: a6e6
+2024-11-21 02:02:16,653 - INFO - Move: a6e6
+2024-11-21 02:02:16,653 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,655 - INFO - Best move predicted: d2d4
+2024-11-21 02:02:16,655 - INFO - Move: d2d4
+2024-11-21 02:02:16,655 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,657 - INFO - Best move predicted: e6f6
+2024-11-21 02:02:16,657 - INFO - Move: e6f6
+2024-11-21 02:02:16,657 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,659 - INFO - Best move predicted: d4e5
+2024-11-21 02:02:16,659 - INFO - Move: d4e5
+2024-11-21 02:02:16,659 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,661 - INFO - Best move predicted: f6a6
+2024-11-21 02:02:16,661 - INFO - Move: f6a6
+2024-11-21 02:02:16,661 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,663 - INFO - Best move predicted: e5d5
+2024-11-21 02:02:16,663 - INFO - Move: e5d5
+2024-11-21 02:02:16,663 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,665 - INFO - Best move predicted: a6e6
+2024-11-21 02:02:16,665 - INFO - Move: a6e6
+2024-11-21 02:02:16,665 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,667 - INFO - Best move predicted: d5d2
+2024-11-21 02:02:16,667 - INFO - Move: d5d2
+2024-11-21 02:02:16,667 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,669 - INFO - Best move predicted: e6f6
+2024-11-21 02:02:16,669 - INFO - Move: e6f6
+2024-11-21 02:02:16,669 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,671 - INFO - Best move predicted: d2d4
+2024-11-21 02:02:16,671 - INFO - Move: d2d4
+2024-11-21 02:02:16,671 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,673 - INFO - Best move predicted: f6a6
+2024-11-21 02:02:16,673 - INFO - Move: f6a6
+2024-11-21 02:02:16,673 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,675 - INFO - Best move predicted: d4e5
+2024-11-21 02:02:16,675 - INFO - Move: d4e5
+2024-11-21 02:02:16,675 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,677 - INFO - Best move predicted: a6e6
+2024-11-21 02:02:16,677 - INFO - Move: a6e6
+2024-11-21 02:02:16,677 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . . Q . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,679 - INFO - Best move predicted: e5d5
+2024-11-21 02:02:16,679 - INFO - Move: e5d5
+2024-11-21 02:02:16,679 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . r . . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,681 - INFO - Best move predicted: e6f6
+2024-11-21 02:02:16,681 - INFO - Move: e6f6
+2024-11-21 02:02:16,681 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . Q . . P .
+p . P . P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,683 - INFO - Best move predicted: d5d2
+2024-11-21 02:02:16,683 - INFO - Move: d5d2
+2024-11-21 02:02:16,683 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+. . . . . r . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,685 - INFO - Best move predicted: f6a6
+2024-11-21 02:02:16,685 - INFO - Move: f6a6
+2024-11-21 02:02:16,685 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . . . P .
+p . P . P . . p
+. P . . K N P .
+n . . Q . P . .
+R . B . . B . R
+2024-11-21 02:02:16,687 - INFO - Best move predicted: d2d4
+2024-11-21 02:02:16,687 - INFO - Move: d2d4
+2024-11-21 02:02:16,687 - DEBUG - Board after move:
+. . b q k . n r
+. p p p N p p .
+r . . . . . . .
+. . . . . . P .
+p . P Q P . . p
+. P . . K N P .
+n . . . . P . .
+R . B . . B . R
+2024-11-21 02:02:16,688 - INFO - Game over.
+2024-11-21 02:04:41,989 - INFO - Preparing dataset and DataLoader...
+2024-11-21 02:04:41,989 - INFO - Loading games from ../data.pgn...
+2024-11-21 02:05:01,906 - INFO - Loaded 10000 games from the dataset.
+2024-11-21 02:05:01,906 - INFO - Dataset and DataLoader prepared.
+2024-11-21 02:05:01,906 - INFO - Initializing model, criterion, and optimizer...
+2024-11-21 02:05:02,517 - INFO - Model, criterion, optimizer, and scheduler initialized.
+2024-11-21 02:05:02,928 - INFO - Training started...
+2024-11-21 02:05:06,864 - INFO - Epoch [1/20], Loss: 0.1545
+2024-11-21 02:05:10,549 - INFO - Epoch [2/20], Loss: 0.0007
+2024-11-21 02:05:14,216 - INFO - Epoch [3/20], Loss: 0.0004
+2024-11-21 02:05:17,893 - INFO - Epoch [4/20], Loss: 0.0002
+2024-11-21 02:05:21,566 - INFO - Epoch [5/20], Loss: 0.0002
+2024-11-21 02:05:25,248 - INFO - Epoch [6/20], Loss: 0.0002
+2024-11-21 02:05:28,926 - INFO - Epoch [7/20], Loss: 0.0001
+2024-11-21 02:05:32,608 - INFO - Epoch [8/20], Loss: 0.0001
+2024-11-21 02:05:36,286 - INFO - Epoch [9/20], Loss: 0.0001
+2024-11-21 02:05:39,972 - INFO - Epoch [10/20], Loss: 0.0001
+2024-11-21 02:05:40,330 - INFO - Model checkpoint saved for epoch 10.
+2024-11-21 02:05:44,061 - INFO - Epoch [11/20], Loss: 0.0001
+2024-11-21 02:05:47,742 - INFO - Epoch [12/20], Loss: 0.0001
+2024-11-21 02:05:51,420 - INFO - Epoch [13/20], Loss: 0.0001
+2024-11-21 02:05:55,104 - INFO - Epoch [14/20], Loss: 0.0001
+2024-11-21 02:05:58,787 - INFO - Epoch [15/20], Loss: 0.0001
+2024-11-21 02:06:02,469 - INFO - Epoch [16/20], Loss: 0.0001
+2024-11-21 02:06:06,145 - INFO - Epoch [17/20], Loss: 0.0001
+2024-11-21 02:06:09,809 - INFO - Epoch [18/20], Loss: 0.0001
+2024-11-21 02:06:13,496 - INFO - Epoch [19/20], Loss: 0.0001
+2024-11-21 02:06:17,180 - INFO - Epoch [20/20], Loss: 0.0001
+2024-11-21 02:06:17,528 - INFO - Model checkpoint saved for epoch 20.
+2024-11-21 02:06:17,908 - INFO - Training completed. Final model saved.
+2024-11-21 02:06:18,149 - INFO - Model loaded from chess_model.pth
+2024-11-21 02:06:18,149 - INFO - Starting a new game...
+2024-11-21 02:09:35,797 - INFO - Preparing dataset and DataLoader...
+2024-11-21 02:09:35,797 - INFO - Loading games from ../data.pgn...
+2024-11-21 02:09:55,785 - INFO - Loaded 10000 games from the dataset.
+2024-11-21 02:09:55,786 - INFO - Dataset and DataLoader prepared.
+2024-11-21 02:09:55,786 - INFO - Initializing model, criterion, and optimizer...
+2024-11-21 02:09:56,400 - INFO - Model, criterion, optimizer, and scheduler initialized.
+2024-11-21 02:09:56,759 - INFO - Training started...
+2024-11-21 02:10:00,749 - INFO - Epoch [1/20], Loss: 0.1543
+2024-11-21 02:10:04,477 - INFO - Epoch [2/20], Loss: 0.0006
+2024-11-21 02:10:08,187 - INFO - Epoch [3/20], Loss: 0.0004
+2024-11-21 02:10:11,906 - INFO - Epoch [4/20], Loss: 0.0002
+2024-11-21 02:10:15,620 - INFO - Epoch [5/20], Loss: 0.0002
+2024-11-21 02:10:19,347 - INFO - Epoch [6/20], Loss: 0.0002
+2024-11-21 02:10:23,067 - INFO - Epoch [7/20], Loss: 0.0001
+2024-11-21 02:10:26,789 - INFO - Epoch [8/20], Loss: 0.0001
+2024-11-21 02:10:30,508 - INFO - Epoch [9/20], Loss: 0.0001
+2024-11-21 02:10:34,234 - INFO - Epoch [10/20], Loss: 0.0001
+2024-11-21 02:10:34,598 - INFO - Model checkpoint saved for epoch 10.
+2024-11-21 02:10:38,366 - INFO - Epoch [11/20], Loss: 0.0001
+2024-11-21 02:10:42,096 - INFO - Epoch [12/20], Loss: 0.0001
+2024-11-21 02:10:45,819 - INFO - Epoch [13/20], Loss: 0.0001
+2024-11-21 02:10:49,547 - INFO - Epoch [14/20], Loss: 0.0001
+2024-11-21 02:10:53,278 - INFO - Epoch [15/20], Loss: 0.0001
+2024-11-21 02:10:57,002 - INFO - Epoch [16/20], Loss: 0.0001
+2024-11-21 02:11:00,732 - INFO - Epoch [17/20], Loss: 0.0001
+2024-11-21 02:11:04,451 - INFO - Epoch [18/20], Loss: 0.0001
+2024-11-21 02:11:08,176 - INFO - Epoch [19/20], Loss: 0.0001
+2024-11-21 02:11:11,905 - INFO - Epoch [20/20], Loss: 0.0001
+2024-11-21 02:11:12,275 - INFO - Model checkpoint saved for epoch 20.
+2024-11-21 02:11:12,663 - INFO - Training completed. Final model saved.
+2024-11-21 02:11:12,901 - INFO - Model loaded from chess_model.pth
+2024-11-21 02:11:12,901 - INFO - Starting a new game...
+2024-11-21 02:11:16,489 - INFO - Move: e2e4
+2024-11-21 02:11:16,489 - DEBUG - Board after move:
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . P . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+2024-11-21 02:11:16,500 - INFO - Best move predicted: g8f6
+2024-11-21 02:11:16,500 - INFO - Move: g8f6
+2024-11-21 02:11:16,500 - DEBUG - Board after move:
+r n b q k b . r
+p p p p p p p p
+. . . . . n . .
+. . . . . . . .
+. . . . P . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+2024-11-21 02:11:25,643 - INFO - Move: e4e5
+2024-11-21 02:11:25,643 - DEBUG - Board after move:
+r n b q k b . r
+p p p p p p p p
+. . . . . n . .
+. . . . P . . .
+. . . . . . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+2024-11-21 02:11:25,645 - INFO - Best move predicted: h8g8
+2024-11-21 02:11:25,645 - INFO - Move: h8g8
+2024-11-21 02:11:25,645 - DEBUG - Board after move:
+r n b q k b r .
+p p p p p p p p
+. . . . . n . .
+. . . . P . . .
+. . . . . . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+2024-11-21 02:11:55,939 - INFO - Move: e5f6
+2024-11-21 02:11:55,939 - DEBUG - Board after move:
+r n b q k b r .
+p p p p p p p p
+. . . . . P . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+2024-11-21 02:11:55,956 - INFO - Best move predicted: g7g5
+2024-11-21 02:11:55,956 - INFO - Move: g7g5
+2024-11-21 02:11:55,956 - DEBUG - Board after move:
+r n b q k b r .
+p p p p p p . p
+. . . . . P . .
+. . . . . . p .
+. . . . . . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+2024-11-21 02:12:22,147 - INFO - Move: f6e7
+2024-11-21 02:12:22,147 - DEBUG - Board after move:
+r n b q k b r .
+p p p p P p . p
+. . . . . . . .
+. . . . . . p .
+. . . . . . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+2024-11-21 02:12:22,167 - INFO - Best move predicted: g8g7
+2024-11-21 02:12:22,167 - INFO - Move: g8g7
+2024-11-21 02:12:22,167 - DEBUG - Board after move:
+r n b q k b . .
+p p p p P p r p
+. . . . . . . .
+. . . . . . p .
+. . . . . . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+2024-11-21 02:12:54,971 - INFO - Move: e7d8q
+2024-11-21 02:12:54,972 - DEBUG - Board after move:
+r n b Q k b . .
+p p p p . p r p
+. . . . . . . .
+. . . . . . p .
+. . . . . . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+2024-11-21 02:12:54,993 - INFO - Best move predicted: e8d8
+2024-11-21 02:12:54,993 - INFO - Move: e8d8
+2024-11-21 02:12:54,994 - DEBUG - Board after move:
+r n b k . b . .
+p p p p . p r p
+. . . . . . . .
+. . . . . . p .
+. . . . . . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+2024-11-21 02:13:14,976 - INFO - Move: b1c3
+2024-11-21 02:13:14,976 - DEBUG - Board after move:
+r n b k . b . .
+p p p p . p r p
+. . . . . . . .
+. . . . . . p .
+. . . . . . . .
+. . N . . . . .
+P P P P . P P P
+R . B Q K B N R
+2024-11-21 02:13:14,992 - INFO - Best move predicted: d8e7
+2024-11-21 02:13:14,992 - INFO - Move: d8e7
+2024-11-21 02:13:14,992 - DEBUG - Board after move:
+r n b . . b . .
+p p p p k p r p
+. . . . . . . .
+. . . . . . p .
+. . . . . . . .
+. . N . . . . .
+P P P P . P P P
+R . B Q K B N R
+2024-11-21 02:13:49,432 - INFO - Preparing dataset and DataLoader...
+2024-11-21 02:13:49,432 - INFO - Loading games from ../data.pgn...
+2024-11-21 02:14:09,412 - INFO - Loaded 10000 games from the dataset.
+2024-11-21 02:14:09,412 - INFO - Dataset and DataLoader prepared.
+2024-11-21 02:14:09,412 - INFO - Initializing model, criterion, and optimizer...
+2024-11-21 02:14:10,026 - INFO - Model, criterion, optimizer, and scheduler initialized.
+2024-11-21 02:14:10,396 - INFO - Training started...
+2024-11-21 02:14:14,400 - INFO - Epoch [1/20], Loss: 0.1559
+2024-11-21 02:14:18,144 - INFO - Epoch [2/20], Loss: 0.0006
+2024-11-21 02:14:21,889 - INFO - Epoch [3/20], Loss: 0.0003
+2024-11-21 02:14:25,632 - INFO - Epoch [4/20], Loss: 0.0002
+2024-11-21 02:14:29,375 - INFO - Epoch [5/20], Loss: 0.0002
+2024-11-21 02:14:33,115 - INFO - Epoch [6/20], Loss: 0.0001
+2024-11-21 02:14:36,859 - INFO - Epoch [7/20], Loss: 0.0001
+2024-11-21 02:14:40,598 - INFO - Epoch [8/20], Loss: 0.0001
+2024-11-21 02:14:44,336 - INFO - Epoch [9/20], Loss: 0.0001
+2024-11-21 02:14:48,080 - INFO - Epoch [10/20], Loss: 0.0001
+2024-11-21 02:14:48,434 - INFO - Model checkpoint saved for epoch 10.
+2024-11-21 02:14:52,218 - INFO - Epoch [11/20], Loss: 0.0001
+2024-11-21 02:14:55,962 - INFO - Epoch [12/20], Loss: 0.0001
+2024-11-21 02:14:59,714 - INFO - Epoch [13/20], Loss: 0.0001
+2024-11-21 02:15:03,462 - INFO - Epoch [14/20], Loss: 0.0001
+2024-11-21 02:15:07,206 - INFO - Epoch [15/20], Loss: 0.0001
+2024-11-21 02:15:10,951 - INFO - Epoch [16/20], Loss: 0.0001
+2024-11-21 02:15:14,689 - INFO - Epoch [17/20], Loss: 0.0001
+2024-11-21 02:15:18,423 - INFO - Epoch [18/20], Loss: 0.0001
+2024-11-21 02:15:22,161 - INFO - Epoch [19/20], Loss: 0.0001
+2024-11-21 02:15:25,902 - INFO - Epoch [20/20], Loss: 0.0001
+2024-11-21 02:15:26,259 - INFO - Model checkpoint saved for epoch 20.
+2024-11-21 02:15:26,645 - INFO - Training completed. Final model saved.
+2024-11-21 02:15:26,865 - INFO - Model loaded from chess_model.pth
+2024-11-21 02:15:26,865 - INFO - Starting a new game...
+2024-11-21 02:15:26,871 - INFO - Best move predicted: e2e4
+2024-11-21 02:15:26,871 - INFO - Move: e2e4
+2024-11-21 02:15:26,871 - DEBUG - Board after move:
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . P . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+2024-11-21 02:15:39,824 - INFO - Move: e7e5
+2024-11-21 02:15:39,824 - DEBUG - Board after move:
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . p . . .
+. . . . P . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+2024-11-21 02:15:39,825 - INFO - Best move predicted: d2d4
+2024-11-21 02:15:39,826 - INFO - Move: d2d4
+2024-11-21 02:15:39,826 - DEBUG - Board after move:
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . p . . .
+. . . P P . . .
+. . . . . . . .
+P P P . . P P P
+R N B Q K B N R
+2024-11-21 02:15:45,636 - INFO - Move: e5d4
+2024-11-21 02:15:45,636 - DEBUG - Board after move:
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . . . . .
+. . . p P . . .
+. . . . . . . .
+P P P . . P P P
+R N B Q K B N R
+2024-11-21 02:15:45,641 - INFO - Best move predicted: c2c4
+2024-11-21 02:15:45,641 - INFO - Move: c2c4
+2024-11-21 02:15:45,641 - DEBUG - Board after move:
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . . . . .
+. . P p P . . .
+. . . . . . . .
+P P . . . P P P
+R N B Q K B N R
+2024-11-21 02:15:56,770 - INFO - Move: d4c3
+2024-11-21 02:15:56,770 - DEBUG - Board after move:
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . . . . .
+. . . . P . . .
+. . p . . . . .
+P P . . . P P P
+R N B Q K B N R
+2024-11-21 02:15:56,772 - INFO - Best move predicted: g1f3
+2024-11-21 02:15:56,772 - INFO - Move: g1f3
+2024-11-21 02:15:56,772 - DEBUG - Board after move:
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . . . . .
+. . . . P . . .
+. . p . . N . .
+P P . . . P P P
+R N B Q K B . R
+2024-11-21 02:16:12,587 - INFO - Move: c3b2
+2024-11-21 02:16:12,588 - DEBUG - Board after move:
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . . . . .
+. . . . P . . .
+. . . . . N . .
+P p . . . P P P
+R N B Q K B . R
+2024-11-21 02:16:12,594 - INFO - Best move predicted: g2g3
+2024-11-21 02:16:12,594 - INFO - Move: g2g3
+2024-11-21 02:16:12,594 - DEBUG - Board after move:
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . . . . .
+. . . . P . . .
+. . . . . N P .
+P p . . . P . P
+R N B Q K B . R
+2024-11-21 02:16:28,029 - INFO - Move: b2c1q
+2024-11-21 02:16:28,029 - DEBUG - Board after move:
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . . . . .
+. . . . P . . .
+. . . . . N P .
+P . . . . P . P
+R N q Q K B . R
+2024-11-21 02:16:28,033 - INFO - Best move predicted: b1c3
+2024-11-21 02:16:28,033 - INFO - Move: b1c3
+2024-11-21 02:16:28,033 - DEBUG - Board after move:
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . . . . .
+. . . . P . . .
+. . N . . N P .
+P . . . . P . P
+R . q Q K B . R
+2024-11-21 02:16:42,289 - INFO - Move: c1c3
+2024-11-21 02:16:42,290 - DEBUG - Board after move:
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . . . . .
+. . . . P . . .
+. . q . . N P .
+P . . . . P . P
+R . . Q K B . R
+2024-11-21 02:16:42,295 - INFO - Best move predicted: f3d2
+2024-11-21 02:16:42,295 - INFO - Move: f3d2
+2024-11-21 02:16:42,295 - DEBUG - Board after move:
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . . . . .
+. . . . P . . .
+. . q . . . P .
+P . . N . P . P
+R . . Q K B . R
+2024-11-21 02:16:49,488 - INFO - Move: c3a1
+2024-11-21 02:16:49,488 - DEBUG - Board after move:
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . . . . .
+. . . . P . . .
+. . . . . . P .
+P . . N . P . P
+q . . Q K B . R
+2024-11-21 02:16:49,493 - INFO - Best move predicted: f2f4
+2024-11-21 02:16:49,493 - INFO - Move: f2f4
+2024-11-21 02:16:49,493 - DEBUG - Board after move:
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . . . . .
+. . . . P P . .
+. . . . . . P .
+P . . N . . . P
+q . . Q K B . R
+2024-11-21 02:17:00,347 - INFO - Move: a1d1
+2024-11-21 02:17:00,347 - DEBUG - Board after move:
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . . . . .
+. . . . P P . .
+. . . . . . P .
+P . . N . . . P
+. . . q K B . R
+2024-11-21 02:17:00,352 - INFO - Best move predicted: e1d1
+2024-11-21 02:17:00,352 - INFO - Move: e1d1
+2024-11-21 02:17:00,353 - DEBUG - Board after move:
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . . . . .
+. . . . P P . .
+. . . . . . P .
+P . . N . . . P
+. . . K . B . R

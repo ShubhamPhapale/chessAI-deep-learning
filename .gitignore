@@ -1,0 +1,10 @@
+data.pgn
+data.pgn.zst
+__pycache__/
+venv/
+lichess_db_standard_rated_2022-11.pgn.zst
+working0/checkpoints/
+improve1/checkpoints/
+wget-log
+improve1/chess_model.pth
+improve1/chess_model_interrupted.pth

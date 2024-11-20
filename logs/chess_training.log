@@ -1,0 +1,26 @@
+2024-11-21 00:17:00,244 - INFO - Preparing dataset and DataLoader...
+2024-11-21 00:17:00,244 - INFO - Loading games from data.pgn...
+2024-11-21 00:17:20,794 - INFO - Loaded 10000 games from the dataset.
+2024-11-21 00:17:20,794 - INFO - Dataset and DataLoader prepared.
+2024-11-21 00:17:20,794 - INFO - Initializing model, criterion, and optimizer...
+2024-11-21 00:17:21,443 - INFO - Model, criterion, optimizer, and scheduler initialized.
+2024-11-21 00:17:21,827 - INFO - Training started...
+2024-11-21 00:17:27,689 - INFO - Epoch [1/200], Loss: 0.0101
+2024-11-21 00:17:33,283 - INFO - Epoch [2/200], Loss: 0.0000
+2024-11-21 00:17:38,896 - INFO - Epoch [3/200], Loss: 0.0000
+2024-11-21 00:17:44,479 - INFO - Epoch [4/200], Loss: 0.0000
+2024-11-21 00:17:50,058 - INFO - Epoch [5/200], Loss: 0.0000
+2024-11-21 00:17:55,655 - INFO - Epoch [6/200], Loss: 0.0000
+2024-11-21 00:18:01,216 - INFO - Epoch [7/200], Loss: 0.0000
+2024-11-21 00:18:06,775 - INFO - Epoch [8/200], Loss: 0.0000
+2024-11-21 00:18:12,329 - INFO - Epoch [9/200], Loss: 0.0000
+2024-11-21 00:18:17,859 - INFO - Epoch [10/200], Loss: 0.0000
+2024-11-21 00:18:17,990 - INFO - Model checkpoint saved for epoch 10.
+2024-11-21 00:18:23,562 - INFO - Epoch [11/200], Loss: 0.0000
+2024-11-21 00:18:29,097 - INFO - Epoch [12/200], Loss: 0.0000
+2024-11-21 00:18:34,749 - INFO - Epoch [13/200], Loss: 0.0000
+2024-11-21 00:18:40,305 - INFO - Epoch [14/200], Loss: 0.0000
+2024-11-21 00:18:45,873 - INFO - Epoch [15/200], Loss: 0.0000
+2024-11-21 00:18:51,515 - INFO - Epoch [16/200], Loss: 0.0000
+2024-11-21 00:18:57,152 - INFO - Epoch [17/200], Loss: 0.0000
+2024-11-21 00:19:03,342 - INFO - Epoch [18/200], Loss: 0.0000
